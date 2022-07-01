@@ -7,7 +7,7 @@ from rlkit.samplers.data_collector import MdpPathCollector, ObsDictPathCollector
 from rlkit.samplers.data_collector.step_collector import MdpStepCollector
 from rlkit.torch.networks import ConcatMlp
 from rlkit.torch.sac.policies import TanhGaussianPolicy, MakeDeterministic
-from rlkit.torch.sac.awac_trainer import AWACTrainer
+from rlkit.torch.sac.awac_trainer
 from rlkit.torch.torch_rl_algorithm import (
     TorchBatchRLAlgorithm,
     TorchOnlineRLAlgorithm,
@@ -32,7 +32,7 @@ from rlkit.exploration_strategies.ou_strategy import OUStrategy
 
 import os.path as osp
 from rlkit.core import logger
-from rlkit.util.io import load_local_or_remote
+from rlkit.util.io import load_local_or_remote_file
 import pickle
 
 # from rlkit.envs.images import Renderer, InsertImageEnv, EnvRenderer
