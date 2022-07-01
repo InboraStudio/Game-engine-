@@ -32,7 +32,7 @@ from rlkit.exploration_strategies.ou_strategy import OUStrategy
 
 import os.path as osp
 from rlkit.core import logger
-from rlkit.util.io import load_local_or_remote_file
+from rlkit.util.io import load_local_or_remote
 import pickle
 
 # from rlkit.envs.images import Renderer, InsertImageEnv, EnvRenderer
