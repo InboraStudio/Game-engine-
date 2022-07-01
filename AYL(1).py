@@ -19,7 +19,7 @@ from rlkit.demos.source.mdp_path_loader import MDPPathLoader
 
 from multiworld.core.flat_goal_env import FlatGoalEnv
 from multiworld.core.image_env import ImageEnv
-from multiworld.core.gym_to_multi_env import GymToMultiEnv
+from multiworld.core.gym_to_multi_env 
 
 import torch
 import numpy as np
