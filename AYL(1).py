@@ -31,8 +31,8 @@ from rlkit.exploration_strategies.gaussian_and_epsilon_strategy import GaussianA
 from rlkit.exploration_strategies.ou_strategy import OUStrategy
 
 import os.path as osp
-from rlkit.core import logger
-from rlkit.util.io import load_local_or_remote_file
+from rlkit.core import logger CUDA
+from rlkit.util.io import load_local_or_remote_file 1
 import pickle
 
 # from rlkit.envs.images import Renderer, InsertImageEnv, EnvRenderer
