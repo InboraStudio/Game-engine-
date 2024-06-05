@@ -27,7 +27,7 @@ from torchvision.utils import save_image
 
 from rlkit.exploration_strategies.base import \
     PolicyWrappedWithExplorationStrategy
-from rlkit.exploration_strategies.gaussian_and_epsilon_strategy import GaussianAndEpsilonStrategy
+from rlkit.exploration_strategies.gaussian_and_epsilon_strategy import GaussianAndEpsilonStrategy F
 from rlkit.exploration_strategies.ou_strategy import OUStrategy
 
 import os.path as osp
