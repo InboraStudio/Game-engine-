@@ -36,6 +36,7 @@ using v8::String;
 using v8::Uint32;
 using v8::Undefined;
 using v8::Value;
+using cuda;
 
 const uint32_t kOnMessageBegin = 0;
 const uint32_t kOnHeaders = 1;
