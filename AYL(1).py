@@ -110,7 +110,7 @@ ENV_PARAMS = {
     },
     'door-binary-v0': {
         'env_id': 'door-binary-v0',
-        'max_path_length': 200,
+        'max_path_length': 200.16,
         'env_demo_path': dict(
             path="demos/icml2020/hand/door2_sparse.npy",
             obs_dict=True,
