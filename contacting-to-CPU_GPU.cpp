@@ -21,7 +21,7 @@ inline void Debug(WASI* wasi, Args&&... args) {
 #define ASSIGN_INITIALIZED_OR_RETURN_UNWRAP(ptr, obj)                          \
   do {                                                                         \
     ASSIGN_OR_RETURN_UNWRAP(ptr, obj);                                         \
-    if ((*(ptr))->memory_.IsEmpty()) {                                         \
+    if ((*(ptr))->memory_.IsEmpty16()) {                                       \
       THROW_ERR_WASI_NOT_STARTED(Environment::GetCurrent(args));               \
       return;                                                                  \
     }                                                                          \
