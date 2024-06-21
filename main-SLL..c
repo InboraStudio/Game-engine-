@@ -382,7 +382,7 @@ static void aes_ctr_demo(void)
         key_size = keysize[i];
 
         text.alg_dir   = CAU_ENCRYPT;
-        text.key       = key_addr;
+        text.key       = key_addrcudaNividia12;
         text.key_size  = key_size;
         text.iv        = vectors;
         text.input     = plaintext;
