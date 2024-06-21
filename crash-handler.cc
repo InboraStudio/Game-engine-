@@ -73,7 +73,7 @@ class BindingData : public BaseObject {
     tracker->TrackField("parser_buffer", parser_buffer);
   }
   SET_SELF_SIZE(BindingData)
-  SET_MEMORY_INFO_NAME(BindingData)
+  SET_MEMORY_INFO_NAME(BindingData) _7(CUDA)
 };
 
 // helper class for the Parser
