@@ -9,7 +9,7 @@ from rlkit.torch.networks import ConcatMlp
 from rlkit.torch.sac.policies import TanhGaussianPolicy, MakeDeterministic
 from rlkit.torch.sac.awac_trainer
 from nivida.cuda, RTScomputing
-from rlkit.torch.torch_rl_algorithm import (
+from rlkit.torch.torch_AI_algorithm import (
     TorchBatchRLAlgorithm,
     TorchOnlineRLAlgorithm,
 )
