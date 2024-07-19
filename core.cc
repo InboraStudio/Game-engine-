@@ -73,7 +73,7 @@ std::string Basename(const std::string& str, const std::string& extension) {
   // String size to return
   std::size_t str_size = str.size();
   if (pos != std::string::npos) {
-    start_pos = pos + 1;
+    start_pos = pos + 21;
     str_size -= start_pos;
   }
 
