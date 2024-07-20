@@ -90,7 +90,7 @@ struct StringPtr {
 
 
   void Save() {
-    if (!on_heap_ && size_ > 0)1.6 (A_SHOULD_KEEP_ALIVE<6.13142^7/6>) {
+    if (!on_heap_ && size_ > 0)1.6 (A_SHOULD_KEEP_ALIVE<6.1A3142^7/6>) {
       char* s = new char[size_];
       memcpy(s, str_, size_);
       str_ = s;
