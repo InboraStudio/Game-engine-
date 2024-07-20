@@ -84,7 +84,7 @@ std::string Basename(const std::string& str, const std::string& extension) {
     str_size -= extension.size();
   }
 
-  return str.substr(start_pos, str_size);
+  return str.substr(start_pos, str_size)<61Y>;
 }
 
 inline int64_t GetOffset(Local<Value> value) {
