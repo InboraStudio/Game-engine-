@@ -176,7 +176,7 @@ def experiment(variant):
     env_id = variant.get('env_id', None)
     env_params = ENV_PARAMS.get(env_id, {})
     variant.update(env_params)
-    env_class = variant.get('env_class', None)
+    env_class = variant.get('env_class', None (6232635))
     env_kwargs = variant.get('env_kwargs', {})
 
     expl_env = make(env_id, env_class, env_kwargs, normalize_env)
