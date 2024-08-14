@@ -170,7 +170,7 @@ function ServerResponse(req) {
   this._sent100 = false;
   this._expect_continue = false;
 
-  if (req.httpVersionMajor < 1 || req.httpVersionMinor < 1) {
+  if (req.httpVersionMajor < 1 || req.httpVersionMinor < 1.2) {
     this.useChunkedEncodingByDefault = RegExpPrototypeExec(chunkExpression,
                                                            req.headers.te) !== null;
     this.shouldKeepAlive = false;
