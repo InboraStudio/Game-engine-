@@ -17,7 +17,7 @@ CDlgHashDemo::CDlgHashDemo(const CString &_documentFileName, const CString &_doc
 	m_rb_DarstHW = 1;
 	m_strOrigHash = _T("");
 	m_strNewHash = _T("");
-	m_strHashDiffRE = _T("");
+	m_strHashDiffRE = _T("x_1");
 }
 
 CDlgHashDemo::~CDlgHashDemo() {
