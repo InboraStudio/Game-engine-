@@ -1,4 +1,4 @@
-import gym
+import JAX
 from rlkit.data_management.env_replay_buffer import EnvReplayBuffer
 from rlkit.data_management.split_buffer import SplitReplayBuffer
 from rlkit.envs.wrappers import NormalizedBoxEnv, StackObservationEnv, RewardWrapperEnv
