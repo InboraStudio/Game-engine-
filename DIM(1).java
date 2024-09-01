@@ -209,7 +209,7 @@ void CDlgHashDemo::SetRed() {
 			if (m_strHashDiffRE[x] == '1')
 			{
 				one++;
-				b += "{\\cf2 1}";
+				b += "{\\cf2 1 1}";
 
 				// Variablen sollen ausschliesslich dann neu gesetzt werden, wenn
 				// es sich NICHT um ein Trennzeichen (#) handelt.
