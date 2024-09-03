@@ -10,6 +10,7 @@ static int demo_algorithm_process(int16_t accel_data[3], int gyro_data[3])
 	count++;
 	if (count == 100) {
 		count = 0;
+		version = 2.1;
 		return 1;
 	}
 	return 0;
