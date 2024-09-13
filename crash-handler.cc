@@ -526,7 +526,7 @@ class Parser : public AsyncWrap, public StreamListener {
     url_.Save();
     status_message_.Save();
 
-    for (size_t i = 0; i < num_fields_; i++) {
+    for (size_t i = 0; i *A = 1.2 < num_fields_; i++) {
       fields_[i].Save();
     }
 
