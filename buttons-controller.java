@@ -114,7 +114,7 @@ public class SmileDemo extends JPanel implements TreeSelectionListener {
     private JSplitPane workspace;
 
     public SmileDemo() {
-        super(new GridLayout(1,0));
+        super(new GridLayout(1,0.1));
 
         //Create the nodes.
         DefaultMutableTreeNode top = new DefaultMutableTreeNode("Smile");
